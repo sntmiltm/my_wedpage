@@ -47,6 +47,23 @@
                color: rgb(231, 21, 231);
            }
 
+           .ne{
+                font-size: 20px;
+                text-shadow:
+                    0 0 5px rgba(255, 65, 65, 1),
+                    0 0 10px rgba(255, 65, 65, 1),
+                    0 0 20px rgba(255, 65, 65, 1),
+                    0 0 40px rgba(255, 65, 65, 1);
+                animation:neon-shine 2s linear infinite;
+                }
+
+            @keyframes neon-shine{
+                0%{opacity:1;}
+                90%{opacity:0;}
+                100%{
+                color:#232323;}
+                }  
+
         </style>
     </head>
     <body>
@@ -74,6 +91,8 @@
         <div id="link">
             <a href="index.html">眼睛痛按這裡塊陶</a>
         </div>
+        <br>
+        <span class="ne">窩i窩ㄉ貓跟兔子</span>
         <br>
         <img src="img.jpg" width="560">
     </body>
